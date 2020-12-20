@@ -7,14 +7,14 @@ class Api:
     first()
 
 
-  def run_thissecond(self):
+  def run_this_second(self):
     second()
 
 
   def run_this_last(self):
     last()
 
-# force api to yield each iterator, one by one
+# force api to yield for every step in between routines
 def run_api():
   first()
   yield
