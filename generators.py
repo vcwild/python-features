@@ -1,11 +1,11 @@
 from time import sleep
 
 
-def compute():
+def calculate():
   for i in range(10):
     sleep(.5)
     yield i
 
 
-for val in compute():
+for val in calculate():
   print(val)
